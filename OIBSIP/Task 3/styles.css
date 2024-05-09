@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('look.jpg');
+    background-size: cover;
+    background-position: center center;
+    padding: 20px;
+}
+
+#add-task-form {
+    margin-bottom: 20px;
+}
+
+#tasks {
+    border: 1px solid #fd99ff;
+    padding: 20px;
+    background-color: #e6e45a;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    border-bottom: 1px solid #ed9bde;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+button {
+    background-color: #4CAF50;
+    color: #6bd5f3;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #3e8e41;
+}
